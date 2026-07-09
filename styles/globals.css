@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@layer base {
+  html {
+    font-size: 14px; /* Instead of default 16px */
+  }
+}
 html,
 body {
   margin: 0;
