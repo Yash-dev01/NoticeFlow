@@ -29,8 +29,7 @@ export default function NewNoticePage() {
   return (
     <main className="min-h-screen bg-gray-100 py-10 px-6">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 mb-8">Add Notice</h1>
-
+        
         <NoticeForm submitText="Create Notice" onSubmit={handleCreate} />
       </div>
     </main>
